@@ -3,3 +3,22 @@
     margin: 0px;
     padding: 0px;
 }
+/* header section styles */
+
+/* navigation bar styles  */
+.navigation-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
