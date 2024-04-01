@@ -7,18 +7,24 @@
 
 /* navigation bar styles  */
 .navigation-container{
-    background-color: black;
+    background-color: rgb(65, 65, 65);
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 15px;
 }
-.logo{
-
+.logo-photo{
+    width: 150px;
+    cursor: pointer;
 }
 .menus{
     list-style: none;
     display: flex;
     gap: 20px;
+    cursor: pointer;
     
+}
+.item:hover{
+    color: rgb(196, 29, 29)
 }
