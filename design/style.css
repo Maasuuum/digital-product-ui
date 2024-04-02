@@ -65,3 +65,25 @@
 .banner-img{
     width: 300px;
 }
+/* body part */
+.about-us{
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.body-img{
+    width: 400px; 
+}
+.about-right{
+    /* width: 500px; */
+}
+.body-desc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
