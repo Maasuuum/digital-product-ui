@@ -28,3 +28,40 @@
 .item:hover{
     color: rgb(196, 29, 29)
 }
+
+/* banner styles */
+.banner-container{
+    background-image: url("../design/images/background.png"), linear-gradient(45deg, #201f1f, #0f0f0f);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.b-header{
+    font-size: 55px;
+    font-weight: bold;
+}
+.b-desc{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: rgb(75, 46, 103);
+}
+
+.banner-img{
+    width: 300px;
+}
