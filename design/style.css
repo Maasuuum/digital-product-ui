@@ -117,3 +117,48 @@
     background-color: rgb(38, 38, 38);
     color: white;
 }
+
+/* footer section */
+.footer-content{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    padding: 80px;
+    color: white;
+    /* width: 20%; */
+}
+.socia-acc{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.about-des{
+    width: 20%;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+.ul-primary{
+    /* text-decoration: none; */
+    list-style: none;
+    /* padding-bottom: 15px; */
+}
+.img-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* padding: 5px; */
+    padding-top: 5px;
+
+}
+.links-head{
+    padding-bottom: 10px;
+}
+.sup-head{
+    padding-bottom: 10px;
+}
+.con-head{
+    padding-bottom: 10px;
+}
